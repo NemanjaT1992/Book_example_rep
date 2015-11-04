@@ -35,6 +35,7 @@ public class MainActivity extends Activity
 {
     ProgressBar pb;
     int checking = 0;
+    String branch = "nemanja";
 
     protected Handler handler=new Handler()
     {
