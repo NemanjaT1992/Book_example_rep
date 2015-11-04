@@ -34,6 +34,7 @@ import java.util.logging.LogRecord;
 public class MainActivity extends Activity
 {
     ProgressBar pb;
+    int checking = 0;
 
     protected Handler handler=new Handler()
     {
